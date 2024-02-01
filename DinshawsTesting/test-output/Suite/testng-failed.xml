@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verify Admin Module Functionality(failed)">
+    <classes>
+      <class name="com.AdminTest.DesignationsTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="VerifyDesignationsForm"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.AdminTest.DesignationsTest -->
+      <class name="com.AdminTest.RolesAndPermissionsTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setup"/>
+          <include name="VerifyEntityMasterForm"/>
+        </methods>
+      </class> <!-- com.AdminTest.RolesAndPermissionsTest -->
+      <class name="com.AdminTest.EntityTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TearDown"/>
+          <include name="VerifyEntityMasterForm"/>
+        </methods>
+      </class> <!-- com.AdminTest.EntityTest -->
+      <class name="com.AdminTest.UserMasterTest">
+        <methods>
+          <include name="VerifyUserMasterForm"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.AdminTest.UserMasterTest -->
+      <class name="com.AdminTest.DepartmentTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TearDown"/>
+          <include name="VerifyDepartmentForm"/>
+        </methods>
+      </class> <!-- com.AdminTest.DepartmentTest -->
+    </classes>
+  </test> <!-- Verify Admin Module Functionality(failed) -->
+</suite> <!-- Failed suite [Suite] -->
