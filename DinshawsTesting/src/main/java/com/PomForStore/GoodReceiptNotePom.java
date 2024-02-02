@@ -173,35 +173,39 @@ public class GoodReceiptNotePom extends Base{
 	
 	
 	@FindBy(xpath="//app-g-label[text()='Addon Charges']")
-	WebElement ClickOnAddOnChargesDrop;
+	WebElement ClickOnAddOnChargesTab;
 	
 	
-	@FindBy(xpath="")
-	WebElement A;
-	
-	
-	
-	@FindBy(xpath="")
-	WebElement A;
-	
-	@FindBy(xpath="")
-	WebElmenet A;
+	@FindBy(xpath="(//igx-icon[@class='material-icons igx-icon'])[48]")
+	WebElement AddOnChargesTypeDrop;
 	
 	
 	
-	@FindBy(xpath="")
-	WebElement A;
-	
-	@FindBy(xpath="")
-	WebElement A;
+	@FindBy(xpath="//span[text()=' Installation and Commissioning Charges ']")
+	WebElement SelectAddOnChargesType;
 	
 	
 	
-	@FindBy(xpath="")
-	WebElement A;
+	@FindBy(xpath="(//igx-icon[@class='material-icons igx-icon'])[50]")
+	WebElement PartyDrop;
 	
-	@FindBy(xpath="")
-	WebElmenet A;
+	
+	
+	@FindBy(xpath="(//span[@class='igx-checkbox__composite'])[1]")
+	WebElement ClickOnPartyCheck;
+	
+	
+	@FindBy(xpath="(//igx-icon[@class='material-icons igx-icon'])[51]")
+	WebElement  ClickOnPartyRevers;
+	
+	
+	
+	@FindBy(xpath="(//input[@type='number'])[17]")
+	WebElement ChargeAmount;
+	
+	
+	@FindBy(xpath="//button[text()=' Add ']")
+	WebElement ClickOnAddButton;
 	
 	
 	
